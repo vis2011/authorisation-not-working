@@ -1,0 +1,156 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-image: "backdrop.jpg";
+}
+
+
+canvas {
+  display: block;
+}
+
+.appTitle {
+  height: 1%;
+  width: 0.1px;
+}
+
+.hline {
+  width: 900px;
+  height: 30px;
+}
+
+.info {
+  width: 50px;
+  height: 50px;
+}
+
+.greeting {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+
+.greeting1 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.greeting2 {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-family: vollkorn;
+  text-align: center;
+}
+.greeting3 {
+  font-size: 50px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background: linear-gradient(to right,white,white,white,white,white,white,white,white,white,white,white,rgb(255, 102, 127),blue ,rgb(255, 58, 91));
+  color: white;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 2s ease-out;
+}
+
+.greeting3:hover{
+ background-position: -100%;
+}
+
+.greeting4 {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.greeting5 {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.greeting6 {
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+.customInput {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.customInput1 {
+  width: 330px;
+  height: 30px;
+  border-color: transparent;
+  padding: 10px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.customInput2 {
+  width: 330px;
+  height: 30px;
+  border-color: transparent;
+  padding: 10px;
+  background-color: white;
+  font-size: 18px;
+  -webkit-text-security: disc;
+-moz-text-security: disc;
+/*  font-family: 'Poppins', sans-serif;*/
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.customInput1:hover{
+  border-color: black;
+  outline: auto;
+}
+
+.size{
+  width: 20px;
+  height: 20px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 0, 0);
+  opacity: 2; /* Firefox */
+}
+
+.customButton {
+  width: 160px;
+  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 6px;
+  border-color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.customButton:hover{
+  background-color: black;
+  border-color: white;
+  border-width: 1px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
